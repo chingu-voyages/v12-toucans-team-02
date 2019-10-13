@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Avo, Helvetica, sans-serif;
+}
+
+/************Header and Nav **************/
+
+
+.logo-img {
+    display: flex;
+    width: 10rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.nav-container {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.nav-container a {
+    color: #3D3D3D;
+    text-decoration: none;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.2rem;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.right-nav a {
+    color: rgb(143, 138, 138);
+}
+
+#header-button a {
+    color: #ffffff !important;
+
+}
+
+.nav-link,
+button,
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, .75);
+    letter-spacing: -.095rem;
+
+}
+
+hr {
+    color: rgb(255, 255, 255);
+    width: 73%;
+}
+
+p {
+    color: rgba(0, 0, 0, .75);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/*****************Global Button**************/
+
+.myButton {
+    background-color: #51bb8f;
+    border-radius: 8px;
+    border: 1px solid #7accaa;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3ab327;
+
+
+}
+
+.myButton:hover {
+    background-color: #27a36d;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*****************Top container**************/
+
+/* border: 1px solid red; */
+.top-container {
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.top-container button {
+    margin-bottom: 7rem;
+
+}
+
+.second-part {
+    display: flex;
+    background: #f7f7f7;
+
+}
+
+.head-text-info {
+    width: 98.333333333333336%;
+
+
+}
+
+.top-container-text {
+    font-size: 1rem;
+    color: #717274;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding: 0 2rem;
+
+}
