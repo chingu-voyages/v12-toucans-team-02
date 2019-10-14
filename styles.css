@@ -111,7 +111,9 @@ p {
 /* border: 1px solid red; */
 .top-container {
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 5rem;
+}
+.first-head {
   text-align: center;
 }
 
@@ -119,13 +121,19 @@ p {
   margin-bottom: 7rem;
 }
 
+.top-container-img img {
+  width: 100%;
+}
+
 .second-part {
   display: flex;
+  align-items: center;
   background: #f7f7f7;
 }
 
 .head-text-info {
-  width: 98.333333333333336%;
+  padding: 0 12rem;
+  text-align: justify;
 }
 
 .top-container-text {
@@ -133,8 +141,8 @@ p {
   color: #717274;
   letter-spacing: 0;
   line-height: 28px;
-  padding: 0 2rem;
 }
-.top-container-img img {
-  width: 100%;
+
+.assets-img {
+  width: 50%;
 }
