@@ -146,3 +146,55 @@ p {
 .assets-img {
   width: 50%;
 }
+
+
+
+
+
+/*****************Bottom container**************/
+
+.bottom-container{
+  background: #f7f7f7;
+  padding: 2rem 0;
+}
+
+.platformButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+ }
+.platform-text{
+  display:block;
+  text-align: center;
+}
+.platform-text p{
+  color: #717274;
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.platform{
+  display: flex;
+  align-content: center;
+  padding: 2rem;
+ }
+
+.platform-item {
+  padding: 2rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.platform-item h5{
+  color:#2a2a2a;
+  font-size: 1.125rem;
+}
+.platform-item li{
+  list-style-type: disc;       
+  list-style-position: inside;
+  color: #858585;
+}
+
+
