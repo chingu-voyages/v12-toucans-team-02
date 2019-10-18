@@ -52,7 +52,7 @@ ul {
   color: rgb(143, 138, 138);
 }
 
-#header-button a {
+#header-button a{
   color: #ffffff !important;
 }
 
@@ -60,7 +60,6 @@ ul {
 button,
 a {
   text-decoration: none;
-  color: #ffffff;
 }
 
 h1,
@@ -324,6 +323,9 @@ p {
    margin-left:3rem;
 }
 
+
+/************** FOOTER SECTION***************/
+
 .footer-demo{
   position: relative;
   text-align: center;
@@ -351,12 +353,41 @@ p {
 }
 
 .footerLogo{
-  display: inline;
-  width: 4rem;
-  top: 20%;
-  left: 50%;
+  text-align: center;
+}
+.footerLogo img{
+  width: 3rem;
 }
 
 .footer-nav{
-  color:black!important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li a {
+    color: #858585;
+    cursor: pointer;
+    line-height: 50px;
+    padding: 20px;
+ 
+} 
+
+
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a{
+  padding:1.4rem;
+  color: #2a2a2a;
+}
+
+.copyRight{
+  text-align: center;
+  
+}
+.copyRight p{
+  color: #858585;
+  font-size: .875rem;
 }
