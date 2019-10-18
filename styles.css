@@ -232,7 +232,7 @@ p {
 
 .fullReport{
   display: flex;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   position: relative;
   background-image: linear-gradient(210deg, #1A344C 1%, #121822 97%);
 }
@@ -244,14 +244,16 @@ p {
 }
 
 .report-image{
+  display: block;
     position: absolute;
     height: 110%;
     top: -5%;
     bottom: -15px;
     right: 52%;
     width: auto;
-   
+ 
 }
+
 .cloud-info{
   display: flex;
   align-content: center;
@@ -260,9 +262,46 @@ p {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-
+ 
+  
 }
 .cloud-image{
    margin-left:3rem;
-  }
+}
+
+.footer-demo{
+  position: relative;
+  text-align: center;
+}
+
+.footer-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7f7f7;
   
+}
+
+#footerButton{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  
+}
+
+.footer-button{
+ margin:0 2rem;
+ text-align: center;
+}
+
+.footerLogo{
+  display: inline;
+  width: 4rem;
+  top: 20%;
+  left: 50%;
+}
+
+.footer-nav{
+  color:black!important;
+}
