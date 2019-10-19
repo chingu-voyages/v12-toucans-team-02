@@ -15,7 +15,7 @@ body {
   width: 10rem;
 }
 
-ul {
+.page-header ul {
   list-style-type: none;
   padding: 0;
   list-style: none;
@@ -68,6 +68,7 @@ h3 {
   text-align: center;
   color: rgba(0, 0, 0, 0.75);
   letter-spacing: -0.095rem;
+
 }
 
 hr {
@@ -351,53 +352,75 @@ p {
 
 
 /************** FOOTER SECTION***************/
-
-.footer-demo{
-  position: relative;
-  text-align: center;
+footer#footer.background-footer{
+  background-image: url(./assets/footer-background.png)
 }
 
-.footer-text {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #f7f7f7;
-  
-}
-
-#footerButton{
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  
-}
-
-.footer-button{
- margin:0 2rem;
- text-align: center;
-}
-
-.footerLogo{
-  text-align: center;
-}
-.footerLogo img{
-  width: 3rem;
-}
-
-.footer-nav{
-  display: flex;
-  justify-content: space-around;
-}
-
-.nav-list li a {
+footer#footer{
+    text-align: center;
+    font-size: 1rem;
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: #858585;
-    cursor: pointer;
-    line-height: 50px;
+    font-size: 1rem;
     padding: 20px;
+    text-align: center;
+}
  
-} 
 
+footer#footer h2{
+   color: #f7f7f7;
+   letter-spacing: 0.02rem;
+   margin-bottom:1rem;
+ }
+ 
+ footer#footer .footer-button{
+  margin:2rem 1rem;
+  margin-top: 25px;
+  margin-bottom: 18%;
+  
+ }
+ footer#footer .footer-button a{
+  color:#f7f7f7;
+ }
+
+ 
+ footer#footer .footerLogo img{
+  width: 3rem;
+  margin-left:5rem;
+  
+}
+
+footer#footer .footer-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+     
+}
+
+footer#footer .footer-nav .nav-list-left{
+  text-align: right;
+  margin: 0 25px;
+}
+footer#footer .footer-nav .nav-list-center{
+  text-align: center;
+  margin: 0 25px;
+}
+
+footer#footer .footer-nav .nav-list-right{
+  text-align: left;
+  margin: 0 25px;
+}
+
+
+footer#footer .footer-nav div li{
+  list-style-type: none;
+  line-height: 50px;
+}
+footer#footer .footer-nav a{
+  color: #858585;
+}
 
 .social-media{
   display: flex;
@@ -409,10 +432,6 @@ p {
   color: #2a2a2a;
 }
 
-.copyRight{
-  text-align: center;
-  
-}
 .copyRight p{
   color: #858585;
   font-size: .875rem;
