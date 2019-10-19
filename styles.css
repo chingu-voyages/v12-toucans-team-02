@@ -185,7 +185,7 @@ p {
     border: 1px solid #e9e9e9;
     margin: 1rem;
     width: 70%;
-    min-height: 330px;
+    min-height: 340px;
     position: relative;
   }
 
@@ -193,6 +193,8 @@ p {
     display: flex;
     flex-direction: column;
   }
+
+
 
   .use-case-content h4 {
     width: 80%;
@@ -203,8 +205,19 @@ p {
   }
 
   .use-case-content p {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+  }
+
+  .use-case-content i {
+    font-size: 2.65rem;
+    margin-top: auto;
+    margin-left: .5rem;
+    color: #51BB8E;
+  }
+
+  .use-case-header {
+    display: flex;
   }
 
 
@@ -219,16 +232,29 @@ p {
   }
 
   .use-case-result {
-    display: flex;
     background-color: #f6f6f6;
     padding: 20px 40px 30px 100px;
     position: absolute;
     bottom: 0;
     max-width: 100%;
+
+  }
+
+  .use-case-result-container {
+    display: flex;
+    margin: 0 -4rem;
+  }
+
+
+  .use-case-result i {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .6rem;
   }
 
   .use-case-result span {
-    padding: .75rem 2rem;
+    padding: .7rem 1.3rem;
+    width: 80%;
   }
 
   
