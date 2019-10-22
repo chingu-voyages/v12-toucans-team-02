@@ -93,6 +93,26 @@ body {
  display: none;
 }    
 
+
+
+/******* TOP Container media*********/
+  .head-text-info {
+      width: 50%;
+      padding:2rem;
+      text-align: left;
+    }
+  
+  .second-part h2 {
+      text-align: center;
+      margin: 2rem;
+  }
+  
+  .second-part p {
+      text-align: left;
+      
+  }
+
+
 }
 
 button,
@@ -161,16 +181,6 @@ p {
 .top-container .top-container-img img {
   width: 100%;
 }
-
-
-/**************Experience section ***********/
-
-.second-part{
-  display:flex;
-  background: #f7f7f7;
-}
-
- 
 .top-container-text {
   font-size: 1rem;
   color: #717274;
@@ -178,30 +188,36 @@ p {
   line-height: 28px;
 }
 
-.assets-img {
-  width: 50%;
-}
+
+/**************Experience section ***********/
+ 
+
+ 
 
 /* TOP CONTAINER SECOND PART*/
 .second-part {
     display: flex;
     padding: 0;
     justify-content: center;
-    padding-top: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    margin: 0;
   }
   
   .head-text-info {
-      width: 700px;
-      padding: 0;
-  }
+      width: 50%;
+      padding:2rem;
+      text-align: left;
+    }
   
   .second-part h2 {
-      text-align: left;
+      text-align: center;
+      margin: 2rem;
   }
   
   .second-part p {
       text-align: left;
-      margin: 0;
+      
   }
   
   .second-part img {
