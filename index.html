@@ -16,13 +16,17 @@
 <body>
   <header class="page-header">
     <!-- Navigation -->
+
     <nav class="nav-container">
-      <div class="left-nav">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+      <div class="navs">
         <a id="nav-logo" href="index.html">
           <img class="logo-img" src="assets/Atomist-Logo.png" alt="atomist logo" />
         </a>
 
-        <ul class="nav-list">
+        <ul class="nav-list" id="js-menu">
           <li class="nav-item">
             <a class="nav-link" href="/platform">Platform</a>
           </li>
@@ -35,12 +39,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/company">Company</a>
           </li>
-        </ul>
-      </div>
-
-      <div class="right-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
+           <li class="nav-item">
             <a class="nav-link" href="/blog">Blog</a>
           </li>
           <li class="nav-item">
@@ -49,14 +48,19 @@
           <li class="nav-item ">
             <a class="nav-link" href="/pricing">Pricing</a>
           </li>
-        </ul>
-        <button id="header-button" class="myButton">
-          <a class="nav-link" href="/getstarted">Get Started</a>
-        </button>
+          <li class="nav-item" id="header-button">           
+            <a class="myButton" href="/getstarted">Get Started</a>
+          </li>
+           </ul>
+         
       </div>
+   
     </nav>
-    <hr align="conter" />
+ 
+    <!-- <hr align="conter" /> -->
   </header>
+
+
   <div class="top-container">
     <div class="first-head">
       <h1 class="head-text">We’re Redefining How Teams Deliver Software</h1>
@@ -399,5 +403,7 @@
     </div>
   </footer>
 </body>
+
+<script src="script.js"></script>
 
 </html>
