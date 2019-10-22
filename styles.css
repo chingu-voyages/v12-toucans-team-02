@@ -1,27 +1,30 @@
-html {
+* {
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: Roboto, Avo, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
+ }
 
 /************Header and Nav **************/
-.logo-img {
-  display: flex;
-  width: 10rem;
+.page-header .nav-container .logo-img {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 11rem;
 }
 
-.page-header ul {
+.page-header .nav-container li {
   list-style-type: none;
-  padding: 0;
   list-style: none;
-  display: flex;
+  text-align: center;
+  margin: 1rem;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 .nav-container {
@@ -29,34 +32,69 @@ body {
   padding: 1rem;
   justify-content: center;
   flex-wrap: nowrap;
+  background-image: linear-gradient(160deg, #4b9bd1 0%, rgb(152, 243, 183)   100%);
 }
 
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer; 
+  color: rgba(255,255,255,0.8);
+  font-size: 24px;
+}
+/****I have hidden the menu so that it’s not visible by default.*/
+.nav-list {
+  list-style-type: none;
+  display: none;
+}
+
+.active {
+  display: block;
+}
 .nav-container a {
   color: #3d3d3d;
   text-decoration: none;
   padding: 0.9rem 1.2rem;
   font-size: 1.2rem;
 }
-
-.left-nav {
-  display: flex;
-  align-items: center;
+.nav-logo:hover,
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
-.right-nav {
-  display: flex;
-  align-items: center;
-}
-
-.right-nav a {
-  color: rgb(143, 138, 138);
-}
-
+ 
 #header-button a{
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
-.nav-link,
+
+/*****************MEDIA***************/
+
+@media screen and (min-width: 668px) {    
+  .navs {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 80px;
+  align-items: center;
+}    
+.nav-list {
+  display: flex;
+  margin-right: 30px;
+  flex-direction: row;
+  justify-content: flex-end;
+}    
+.nav-list li {
+  margin: 0;
+}    
+ 
+.navbar-toggle {
+ display: none;
+}    
+
+}
+
 button,
 a {
   text-decoration: none;
@@ -71,11 +109,6 @@ h3 {
 
 }
 
-hr {
-  color: rgb(255, 255, 255);
-  width: 73%;
-}
-
 p {
   color: rgba(0, 0, 0, 0.75);
   font-weight: 300;
@@ -88,18 +121,16 @@ p {
   background-color: #51bb8f;
   border-radius: 8px;
   border: 1px solid #7accaa;
-  display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
   font-size: 17px;
   padding: 16px 31px;
-  text-decoration: none;
   text-shadow: 0px 1px 0px #3ab327;
 }
 
 .myButton:hover {
-  background-color: #27a36d;
+  background-color: #66e496;
 }
 
 .myButton:active {
