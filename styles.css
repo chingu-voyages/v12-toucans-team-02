@@ -231,11 +231,15 @@ p {
     display: flex;
     margin: 0 auto;
   }
+
+  .middle-container ul {
+    list-style: none;
+  }
   
   .use-case-box {
     border: 1px solid #e9e9e9;
     margin: 1rem;
-    width: 70%;
+    width: 75%;
     min-height: 340px;
     position: relative;
   }
@@ -274,20 +278,23 @@ p {
 
   .middle-left-elements {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .middle-right-elements {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
   }
 
   .use-case-result {
     background-color: #f6f6f6;
-    padding: 20px 40px 30px 100px;
+    padding: 20px 20px 30px 100px;
     position: absolute;
     bottom: 0;
-    max-width: 100%;
+    width: 100%;
 
   }
 
@@ -398,27 +405,44 @@ p {
 .cloud-info{
   display: flex;
   align-content: center;
+  justify-content: center;
   background: #fff; 
   width: 100%;
   padding: 5rem 0;
-
 }
-.cloud-info p{
-  width: 35rem;
-  text-align: center;
+
+.cloud-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.cloud-text h2 {
+  font-size: 2rem;
+  width: 70%;
+}
+
+.cloud-text p {
+  font-size: 1.1rem;
+  width: 70%;
 }
 
 .cloud-image img{
    width: 95%;
    height: 110%;
    top: 5%;
-   
+   z-index: 1;
 }
 
 
 /************** FOOTER SECTION***************/
 footer#footer.background-footer{
-  background-image: url(./assets/footer-background.png)
+  background-image: url(./assets/footer-background.png);
+  margin-top: -8rem;
+  z-index: 999;
+  position: relative;
 }
 
 footer#footer{
