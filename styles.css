@@ -393,25 +393,40 @@ p {
   background: #fff; 
   width: 100%;
   padding: 5rem 0;
-  border: 2px solid red;
-
 }
-.cloud-info p{
-  width: 35rem;
-  text-align: center;
+
+.cloud-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.cloud-text h2 {
+  font-size: 2rem;
+  width: 70%;
+}
+
+.cloud-text p {
+  font-size: 1.1rem;
+  width: 70%;
 }
 
 .cloud-image img{
    width: 95%;
    height: 110%;
    top: 5%;
-   
+   z-index: 1;
 }
 
 
 /************** FOOTER SECTION***************/
 footer#footer.background-footer{
-  background-image: url(./assets/footer-background.png)
+  background-image: url(./assets/footer-background.png);
+  margin-top: -8rem;
+  z-index: 999;
+  position: relative;
 }
 
 footer#footer{
