@@ -71,7 +71,7 @@ body {
 
 /*****************MEDIA***************/
 
-@media screen and (min-width: 668px) {    
+@media screen and (min-width: 868px) {    
   .navs {
   display: flex;
   justify-content: space-between;
@@ -93,6 +93,33 @@ body {
  display: none;
 }    
 
+
+/******* TOP Container media*********/
+.second-part {
+  margin: 2rem !important;
+}
+  .head-text-info {
+      width: 30%;
+      padding:2rem;
+      text-align: left;
+    }
+  
+  .second-part h2 {
+      text-align: center;
+      margin: 2rem;
+  }
+  
+  .second-part p {
+      text-align: left;
+  }
+
+
+
+  /********Bottom container media*******/
+
+ 
+ 
+
 }
 
 button,
@@ -103,7 +130,6 @@ a {
 h1,
 h2,
 h3 {
-  /* text-align: center; */
   color: rgba(0, 0, 0, 0.75);
   letter-spacing: -0.095rem;
 
@@ -157,20 +183,9 @@ p {
   margin: 3rem 0;
   
 }
-
 .top-container .top-container-img img {
   width: 100%;
 }
-
-
-/**************Experience section ***********/
-
-.second-part{
-  display:flex;
-  background: #f7f7f7;
-}
-
- 
 .top-container-text {
   font-size: 1rem;
   color: #717274;
@@ -178,30 +193,30 @@ p {
   line-height: 28px;
 }
 
-.assets-img {
-  width: 50%;
-}
+
+/**************Experience section ***********/
+ 
+
+ 
 
 /* TOP CONTAINER SECOND PART*/
 .second-part {
     display: flex;
-    padding: 0;
     justify-content: center;
-    padding-top: 2rem;
+    flex-wrap: wrap;
   }
   
   .head-text-info {
-      width: 700px;
-      padding: 0;
+      padding:2rem;
   }
   
   .second-part h2 {
-      text-align: left;
-  }
+      text-align: center;
+      margin: 2rem;
   
+  }  
   .second-part p {
-      text-align: left;
-      margin: 0;
+    text-align: left;
   }
   
   .second-part img {
@@ -209,7 +224,7 @@ p {
       height: 320px;
   }
   
-  /* USE CASES */
+  /****************** USE CASES *****************/
 
   .middle-container {
     display: flex;
@@ -308,52 +323,59 @@ p {
 .bottom-container{
   background: #f7f7f7;
   padding: 2rem 0;
-  
 }
 
+.platform-info{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
 .platform-text{
   display:block;
   text-align: center;
-}
 
-.bottom-container h5{
+}
+.platform{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  flex-wrap:wrap;
+ }
+
+.platform-item h5{
   text-align: center;
+  padding: 1rem;
 }
 .platform-text p{
   color: #717274;
-  margin-bottom: 30px;
-  margin-top: 0;
+  margin: 30px;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 15px;
 }
 
-.platform{
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 2rem;
- }
-
 .platform-item {
-  padding: 2rem;
-  text-align: left;
+  padding: 15px;
+  margin: 10px;
   background-color: rgba(255,255,255,0.5);
   border: 1px solid #ddd;
-  margin: 0 1rem;
+ 
 }
 .platform-item h5{
   color:#2a2a2a;
-  font-size: 1.125rem;
+  font-size: 20px;
 }
 .platform-item li{
   list-style-type: disc;       
   list-style-position: inside;
+  padding: 15px;
+  width: 20rem;
   color: #858585;
 }
 .platformButton{
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+
   margin: 3rem 0;
   
  }
