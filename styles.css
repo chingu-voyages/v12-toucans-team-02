@@ -96,20 +96,16 @@ body {
   margin: 2rem !important;
 }
   .head-text-info {
-      width: 30%;
+      width: 550px;
       padding:2rem;
       text-align: left;
     }
-  
-  .second-part h2 {
-      text-align: center;
-      margin: 2rem;
-  }
-  
-  .second-part p {
-      text-align: left;
-  }
-
+   
+  .second-part img {
+    width: 600px;
+    height: 320px;
+    margin-top:25px;
+}
 
 
   /********Bottom container media*******/
@@ -119,6 +115,7 @@ body {
    }  
   .platform-text{
      margin:2rem 0 0;
+     
   }
 
 
@@ -130,7 +127,7 @@ body {
   }
 
   .report-description{
-     width:30%;
+      width: 550px;
     }
 
 
@@ -139,11 +136,11 @@ body {
  .cloud-info{
   flex-wrap: nowrap !important;
   justify-content: center;
-  
+  margin: 3rem;
+ 
 }
 .cloud-text {
-  margin: 5rem;
-  width:20%;
+  width: 550px;
 }
 .cloud-image img{
   padding: 2rem;
@@ -240,7 +237,8 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
+    text-align: center;
+   }
   
   .head-text-info {
       padding:2rem;
@@ -248,15 +246,14 @@ p {
   
   .second-part h2 {
       text-align: center;
-      margin: 2rem;
+      margin: 1.5rem;
   }  
   .second-part p {
     text-align: left;
-  }
+   }
   
   .second-part img {
-      width: 600px;
-      height: 320px;
+      width: 100%;
   }
   
   /****************** USE CASES *****************/
@@ -367,7 +364,7 @@ p {
 .platform-text{
   display:block;
   text-align: center;
-
+ 
 }
 .platform{
   display: flex;
@@ -425,6 +422,7 @@ p {
 }
 .report-description{
   margin: 2rem;
+ 
 }
 .report-description p{
   padding: 1rem;
@@ -448,22 +446,24 @@ p {
   padding: 0 3rem;
   flex-wrap: wrap;
   text-align: center;
-  background: #fff; 
+ 
+
 }
 
 .cloud-text {
   padding: 2rem;
-  
+  margin: 2rem;
+ 
 }
 
 .cloud-text p {
   padding: 1rem;
   text-align: left;
+
 }
 
 .cloud-image img{
   width: 100%;
-  /* margin: 2rem; */
 }
 
 
