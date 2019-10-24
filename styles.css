@@ -71,7 +71,7 @@ body {
 
 /*****************MEDIA***************/
 
-@media screen and (min-width: 868px) {    
+@media screen and (min-width: 768px) {    
   .navs {
   display: flex;
   justify-content: space-between;
@@ -117,8 +117,14 @@ body {
 
   /********Bottom container media*******/
 
- 
- 
+  .platform-info{
+    flex-direction: column;
+   }  
+  .platform-text{
+     margin:2rem 0 0;
+  }
+   
+
 
 }
 
@@ -372,10 +378,7 @@ p {
   color: #858585;
 }
 .platformButton{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-
+  text-align: center;
   margin: 3rem 0;
   
  }
