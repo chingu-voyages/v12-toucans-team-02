@@ -22,9 +22,6 @@ body {
   list-style: none;
   text-align: center;
   margin: 1rem;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
 }
 
 .nav-container {
@@ -99,20 +96,16 @@ body {
   margin: 2rem !important;
 }
   .head-text-info {
-      width: 30%;
+      width: 550px;
       padding:2rem;
       text-align: left;
     }
-  
-  .second-part h2 {
-      text-align: center;
-      margin: 2rem;
-  }
-  
-  .second-part p {
-      text-align: left;
-  }
-
+   
+  .second-part img {
+    width: 600px;
+    height: 320px;
+    margin-top:25px;
+}
 
 
   /********Bottom container media*******/
@@ -122,21 +115,43 @@ body {
    }  
   .platform-text{
      margin:2rem 0 0;
+     
   }
 
 
   /*********Report Section media*****/
-
  
   .report-section{
     flex-wrap: nowrap !important;
-   
+    justify-content: center;
   }
 
   .report-description{
-     width:50%;
-  }
+      width: 550px;
+    }
 
+
+ /********Cloud section media*******/
+
+ .cloud-info{
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  margin: 3rem;
+ 
+}
+.cloud-text {
+  width: 550px;
+}
+.cloud-image img{
+  padding: 2rem;
+}
+
+
+/*************Footer Media*************/
+
+footer#footer h2{
+ margin:2rem;
+}
   
 }
 
@@ -222,7 +237,8 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
+    text-align: center;
+   }
   
   .head-text-info {
       padding:2rem;
@@ -230,16 +246,14 @@ p {
   
   .second-part h2 {
       text-align: center;
-      margin: 2rem;
-  
+      margin: 1.5rem;
   }  
   .second-part p {
     text-align: left;
-  }
+   }
   
   .second-part img {
-      width: 600px;
-      height: 320px;
+      width: 100%;
   }
   
   /****************** USE CASES *****************/
@@ -267,8 +281,7 @@ p {
   }
 
 
-
-  .use-case-content h4 {
+ .use-case-content h4 {
     width: 80%;
     margin: 0 auto;
     font-size: 1.6rem;
@@ -351,7 +364,7 @@ p {
 .platform-text{
   display:block;
   text-align: center;
-
+ 
 }
 .platform{
   display: flex;
@@ -376,7 +389,6 @@ p {
   margin: 10px;
   background-color: rgba(255,255,255,0.5);
   border: 1px solid #ddd;
- 
 }
 .platform-item h5{
   color:#2a2a2a;
@@ -397,8 +409,9 @@ p {
  .platformButton a{
    color: white;
  }
-/*******Report Section*******/
 
+
+/*******Report Section*******/
 
 .report-section{
   display: flex;
@@ -409,6 +422,7 @@ p {
 }
 .report-description{
   margin: 2rem;
+ 
 }
 .report-description p{
   padding: 1rem;
@@ -420,45 +434,36 @@ p {
     color: #fff; 
 } 
 .report-image img{
-  width: 100%;
+  width: 110%;
   position: relative; 
-  top: -8%;  
+  top: -5%;  
 }
 
 /****Cloud Section ****/
 
 .cloud-info{
   display: flex;
-  align-content: center;
-  justify-content: center;
-  background: #fff; 
-  width: 100%;
-  padding: 5rem 0;
+  padding: 0 3rem;
+  flex-wrap: wrap;
+  text-align: center;
+ 
+
 }
 
 .cloud-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
-
-.cloud-text h2 {
-  font-size: 2rem;
-  width: 70%;
+  padding: 2rem;
+  margin: 2rem;
+ 
 }
 
 .cloud-text p {
-  font-size: 1.1rem;
-  width: 70%;
+  padding: 1rem;
+  text-align: left;
+
 }
 
 .cloud-image img{
-   width: 95%;
-   height: 110%;
-   top: 5%;
-   z-index: 1;
+  width: 100%;
 }
 
 
@@ -486,7 +491,6 @@ footer#footer{
 footer#footer h2{
    color: #f7f7f7;
    letter-spacing: 0.02rem;
-   margin-bottom:1rem;
  }
  
  footer#footer .footer-button{
@@ -502,8 +506,7 @@ footer#footer h2{
  
  footer#footer .footerLogo img{
   width: 3rem;
-  margin-left:3rem;
-  
+
 }
 
 footer#footer .footer-nav{
