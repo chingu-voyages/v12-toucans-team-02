@@ -553,3 +553,23 @@ footer#footer .footer-nav a{
   color: #858585;
   font-size: .875rem;
 }
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 1;
+	border: none;
+	outline: none;
+ 	padding: 0;
+	cursor: pointer;
+	width:3rem;
+	scroll-behavior: smooth;
+	transition: all 0.25s ease-in-out;
+  }
+  
+  #myBtn:hover {
+	transform: scale(1.1);
+
+  }
