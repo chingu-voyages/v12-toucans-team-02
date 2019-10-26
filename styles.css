@@ -93,20 +93,32 @@ body {
 
 /******* TOP Container media*********/
 .second-part {
-  margin: 2rem !important;
-}
-  .head-text-info {
-      width: 550px;
-      padding:2rem;
-      text-align: left;
-    }
-   
-  .second-part img {
-    width: 600px;
-    height: 320px;
-    margin-top:25px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row !important;
 }
 
+.second-part h2 {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+  .head-text-info {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 80%;
+    }
+
+    .top-container-text {
+      margin-lefT: 1.8rem;
+    }
+   
+    .second-part-image-container {
+      width: 500px;
+    }
 
   /********Bottom container media*******/
 
@@ -236,7 +248,8 @@ p {
 .second-part {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     text-align: center;
    }
   
