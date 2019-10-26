@@ -203,12 +203,9 @@ p {
 .top-container {
   margin: 0 auto;
   padding-top: 5rem;
-}
-.first-head {
   text-align: center;
-  
 }
-
+ 
 .first-head a {
   color: #F7F7F7;
 }
