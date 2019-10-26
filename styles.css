@@ -120,6 +120,29 @@ body {
       width: 500px;
     }
 
+    /* use case media query */
+
+
+    .middle-container {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .middle-left-elements {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    .middle-right-elements {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+
   /********Bottom container media*******/
 
   .platform-info{
@@ -273,7 +296,9 @@ p {
 
   .middle-container {
     display: flex;
-    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .middle-container ul {
@@ -323,13 +348,14 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
   }
 
   .middle-right-elements {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    align-items: center;
   }
 
   .use-case-result {
