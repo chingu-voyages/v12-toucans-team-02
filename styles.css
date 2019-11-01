@@ -16,12 +16,12 @@ body {
   margin-left: 20px;
   width: 11rem;
 }
-
+ 
 .page-header .nav-container li {
   list-style-type: none;
   list-style: none;
   text-align: center;
-  margin: 1rem;
+
 }
 
 .nav-container {
@@ -52,8 +52,7 @@ body {
 .nav-container a {
   color: #3d3d3d;
   text-decoration: none;
-  padding: 0.9rem 1.2rem;
-  font-size: 1.2rem;
+
 }
 .nav-logo:hover,
 .nav-link:hover {
@@ -68,8 +67,8 @@ body {
 
 /*****************MEDIA***************/
 
-@media screen and (min-width: 668px) {    
-  .navs {
+@media screen and (min-width: 968px) {    
+.navs {
   display: flex;
   justify-content: space-between;
   padding-bottom: 0;
@@ -85,6 +84,10 @@ body {
 .nav-list li {
   margin: 0;
 }    
+.nav-container a {
+   padding: 0.9rem 1.2rem;
+  font-size: 1.2rem;
+}
  
 .navbar-toggle {
  display: none;
@@ -99,15 +102,9 @@ body {
   justify-content: center;
 }
 
-/* .second-part h2 {
-  display: flex;
-  justify-content: flex-start;
-  width: 80%;
-} */
-
-  .head-text-info {
+ .head-text-info {
       text-align: left;
-       width: 550px;
+       width: 650px;
     }
 
     .top-container-text {
