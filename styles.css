@@ -68,7 +68,7 @@ body {
 
 /*****************MEDIA***************/
 
-@media screen and (min-width: 768px) {    
+@media screen and (min-width: 668px) {    
   .navs {
   display: flex;
   justify-content: space-between;
@@ -96,30 +96,28 @@ body {
   margin: 2rem;
   display: flex;
   flex-direction: row !important;
+  justify-content: center;
 }
 
-.second-part h2 {
+/* .second-part h2 {
   display: flex;
   justify-content: flex-start;
   width: 80%;
-}
+} */
 
   .head-text-info {
       text-align: left;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      width: 80%;
+       width: 550px;
     }
 
     .top-container-text {
       margin-lefT: 1.8rem;
     }
-   
-    .second-part-image-container {
-      width: 500px;
-    }
-
+     .second-part .second-part-img-container img {
+      width: 55em;
+      height: auto;
+  }
+    
     /* use case media query */
 
 
@@ -187,8 +185,15 @@ body {
 footer#footer h2{
  margin:2rem;
 }
+
+
   
 }
+
+
+
+
+
 
 button,
 a {
