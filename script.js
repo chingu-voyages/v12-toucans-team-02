@@ -19,3 +19,20 @@ const topFunction = () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// follow navigation
+
+const triggers = document.querySelectorAll('.nav-list > li');
+const background  = document.querySelector('.dropdownBackground');
+
+function handleEnter() {
+  this.classList.add('trigger-enter');
+  setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active'), 150);
+}
+
+function handleLeave() {
+  setTimeout(() => this.classList.remove('trigger-enter-active'));
+}
+
+triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
+triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
