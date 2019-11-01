@@ -1,0 +1,364 @@
+[33mcommit cbc399f30e51afffe6c8c7de662b6c40c9160d2f[m[33m ([m[1;36mHEAD -> [m[1;32mfeatures/aki[m[33m, [m[1;31morigin/features/aki[m[33m)[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 26 12:56:35 2019 -0700
+
+    add video to the app
+
+[33mcommit cba87a14e437625b031f1d42c61a4ada016437f6[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Fri Oct 25 10:34:45 2019 -0700
+
+    fix button not appear in footer section
+
+[33mcommit 524cf959bef713d316ccb1e1eb2163098b8f631b[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Fri Oct 25 10:07:53 2019 -0700
+
+    add scroll button
+
+[33mcommit 15c0127dd0eac513062da7d225ed159f03ee2e54[m
+Merge: df5a861 39cc3f3
+Author: Aki <akmalqa101@gmail.com>
+Date:   Thu Oct 24 15:32:39 2019 -0700
+
+    Merge pull request #23 from akmalist/features/aki
+    
+    Features/aki
+
+[33mcommit 39cc3f354a6fc8da41bd94ef55febd0a50d7b7ae[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Thu Oct 24 15:31:49 2019 -0700
+
+    fix layout issue on top-container second page
+
+[33mcommit 09ddb91223726e73676798e6c356f8e5229f3a71[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Thu Oct 24 14:54:50 2019 -0700
+
+     make bottom container and footer section mobile friendly
+
+[33mcommit df5a86120223b9d09e547fa6281935ce996f2de1[m
+Merge: 35667c9 6271ec0
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 23 22:11:09 2019 -0700
+
+    Merge pull request #22 from chingu-voyages/aki/features
+    
+    make report section responsive
+
+[33mcommit 6271ec086cda4c9139b036ca9f8bc205ba5c45e6[m
+Author: Aki John <akmal@Akis-MacBook-Pro.local>
+Date:   Wed Oct 23 22:04:53 2019 -0700
+
+    make report section responsive
+
+[33mcommit 35667c9241fe480ef9c5d3c098a6c3599510d96e[m
+Merge: 76ddb94 b4d6b25
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 23 19:27:44 2019 -0700
+
+    Merge pull request #21 from akmalist/features/aki
+    
+    fix bottom container for desktop version
+
+[33mcommit b4d6b255b83a021e8392e899811cd3f29e1f6391[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 23 19:27:24 2019 -0700
+
+    fix bottom container for desktop version
+
+[33mcommit 76ddb943b62b681f895ca81672d1cc350b6ed59a[m
+Merge: 385959d dab7898
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 23 16:30:56 2019 -0700
+
+    Merge pull request #20 from akmalist/features/aki
+    
+    Features/aki
+
+[33mcommit dab7898ea4c13e4fddc9ab4742f742d53089a83d[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 23 16:29:44 2019 -0700
+
+    make bottom container boxes responsive
+
+[33mcommit d79ad91385bbcfb6f46cf66b9812d3bc74b987d6[m
+Merge: ff06c69 385959d
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 23 14:00:15 2019 -0700
+
+    Merge branch 'master' of https://github.com/chingu-voyages/v12-toucans-team-02 into features/aki
+
+[33mcommit 385959df7a89dfa81078662f190f4b42adac7212[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Wed Oct 23 01:16:45 2019 -0700
+
+    add link to get started button
+
+[33mcommit b1f94ad6cd5c329244ebecda44ee9a69be5d86e1[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Wed Oct 23 01:14:03 2019 -0700
+
+    refactor cloud section and add negative margin to footer to cover image
+
+[33mcommit 3e9f32c8d24c9104a80739e2157d3b3f771db313[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Wed Oct 23 00:52:03 2019 -0700
+
+    fix use case layout and add justify-content:center to cloud section
+
+[33mcommit ff06c691210248d7f88b34ee2ac012d8d9989185[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 22 13:58:28 2019 -0700
+
+    make top-container mobile friendly
+
+[33mcommit feb9f9947ea8aaf8287ca70666e97a076aaf95c5[m
+Merge: 1910855 9bdd5ea
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 22 13:10:24 2019 -0700
+
+    Merge pull request #19 from akmalist/features/aki
+    
+    fix top container
+
+[33mcommit 9bdd5ea46228d5248feb0bd4126616d7f32ce951[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 22 13:09:33 2019 -0700
+
+    fix top container
+
+[33mcommit 1910855fc1d01bed76599fd4a926fbf53a1f4c0e[m
+Merge: 1a2dd2a 4c2d885
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 22 09:47:00 2019 -0700
+
+    Merge pull request #18 from akmalist/features/aki
+    
+    fix nav-bar for mobile version
+
+[33mcommit 4c2d885f0d45373f550823bf5df66e525c110f88[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 22 09:44:28 2019 -0700
+
+    fix nav-bar for movbile version
+
+[33mcommit 1a2dd2aaead7c713d79d5592d3a265fd481f7569[m
+Merge: a5ebfe5 7ca7d76
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 19 14:03:21 2019 -0700
+
+    Merge pull request #16 from akmalist/features/aki
+    
+    fix images for report sections
+
+[33mcommit 7ca7d76b24026ccefa9843253a4f02d285162fd4[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 19 14:02:40 2019 -0700
+
+    fix images for report sectons
+
+[33mcommit a5ebfe5be58b821c8a52dd44e5183b49d57ace8c[m
+Merge: 8277697 364a4b6
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 19 12:14:11 2019 -0700
+
+    Merge pull request #15 from akmalist/features/aki
+    
+    Features/aki
+
+[33mcommit 364a4b6a69da44c60f1b34eee1eeea19c2656b97[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 19 10:15:25 2019 -0700
+
+    fix all footer nav sections
+
+[33mcommit d0c3fde9230bfb0ecc3e655b4bc26354a2d93492[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 19 10:01:05 2019 -0700
+
+    fix all footer section
+
+[33mcommit 8277697a2301a01751410e4f3f6dc5470b7b7107[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Fri Oct 18 23:07:38 2019 -0700
+
+    add styling to use case section
+
+[33mcommit 697faf649fc403918531405986b9b557e0bbce8e[m
+Merge: 6c8f5e2 d57f879
+Author: Aki <akmalqa101@gmail.com>
+Date:   Fri Oct 18 08:09:29 2019 -0700
+
+    Merge pull request #14 from akmalist/features/aki
+    
+    fix footer nav elements and social media layouts
+
+[33mcommit d57f879d1a7b83f97663fbaea0c5220ffede694d[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Fri Oct 18 08:08:20 2019 -0700
+
+    fix footer nav elements and social media layouts
+
+[33mcommit 6c8f5e21545f34563a65ea779570a7105c124a72[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Fri Oct 18 01:38:01 2019 -0700
+
+    add layout for use case section
+
+[33mcommit ca175eeff04531ac8254bf0f3be47f9728d96697[m
+Merge: 1704199 414b5b4
+Author: Aki <akmalqa101@gmail.com>
+Date:   Thu Oct 17 18:51:54 2019 -0700
+
+    Merge pull request #13 from akmalist/features/aki
+    
+     add image too footer and fix footer text
+
+[33mcommit 414b5b4e41277ddb98defaac41c0d16789e8ea80[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Thu Oct 17 18:51:09 2019 -0700
+
+     add image too footer and fix footer text
+
+[33mcommit 170419919d0b09cc7d972f0ebc0c848cdd19c09f[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 16 18:35:42 2019 -0700
+
+    Add files via upload
+
+[33mcommit 8ca73351ba5316bdd5a3200c2104a9698d8b4651[m
+Merge: f7e8ab3 7e2e83f
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 16 18:31:08 2019 -0700
+
+    Merge pull request #12 from akmalist/features/aki
+    
+    fix report section with css
+
+[33mcommit 7e2e83f491c0bc3acbb684acb607194acd2400d8[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Wed Oct 16 15:21:34 2019 -0700
+
+    fix report section with css
+
+[33mcommit f7e8ab353327b1ef224b95d409f5fbdfbce6f3bd[m
+Merge: 8d167d9 b19a076
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Wed Oct 16 11:23:39 2019 -0700
+
+    add box sizing border box and second container content
+
+[33mcommit 8d167d963f9fb7cbbe3cfce23b04c1ea40c7154a[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Wed Oct 16 11:09:57 2019 -0700
+
+    add second part
+
+[33mcommit b19a076c97a04de513e9e4454731ad0ad6bb46f6[m
+Merge: 60ed305 ec6d118
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 15 13:27:05 2019 -0700
+
+    Merge pull request #11 from akmalist/features/aki
+    
+    center texts and add colors to bottom container
+
+[33mcommit ec6d1180b551328323ec31d9c2c544a698e7a5ed[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Tue Oct 15 13:16:57 2019 -0700
+
+    center texts and add colors to bottom container
+
+[33mcommit 60ed3056d1cc5902a25742a71f08577594a6362c[m
+Merge: 5a5c22a a0d665e
+Author: Aki <akmalqa101@gmail.com>
+Date:   Mon Oct 14 07:28:58 2019 -0700
+
+    Merge pull request #7 from akmalist/features/aki
+    
+    Features/aki
+
+[33mcommit a0d665e50baadf0297b95037e65d59c075e46f68[m
+Author: Aki <akmalist@gmail.com>
+Date:   Mon Oct 14 07:27:17 2019 -0700
+
+    fix img and text styles for top-container
+
+[33mcommit 1572c122a58861b11325b91288779cddd2163592[m
+Author: Aki <akmalist@gmail.com>
+Date:   Mon Oct 14 07:03:40 2019 -0700
+
+    fix top container img
+
+[33mcommit 5a5c22a2b1935e5283102634dea4fe2ad5de97f9[m
+Merge: 2138283 1fe3170
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sun Oct 13 14:22:02 2019 -0700
+
+    Merge pull request #4 from akmalist/features/aki
+    
+    Features/aki
+
+[33mcommit 1fe317039490a10135d11b1a1b6a5e96eaae1a29[m
+Author: Aki <akmalist@gmail.com>
+Date:   Sun Oct 13 14:19:06 2019 -0700
+
+    style fix for header and top-container sections
+
+[33mcommit c108a4421c338dd0c607ab1be2098845bdd9d75d[m
+Author: Aki <akmalist@gmail.com>
+Date:   Sun Oct 13 08:24:03 2019 -0700
+
+    add design images for consistensy
+
+[33mcommit 865afd655c301ebcd83de88cc544ecd0a9037988[m
+Author: Aki <akmalist@gmail.com>
+Date:   Sun Oct 13 08:18:00 2019 -0700
+
+    update readme message
+
+[33mcommit 4ec00b1bf9e2540ea11d412e1a55d6ab01a0e360[m
+Author: Aki <akmalist@gmail.com>
+Date:   Sun Oct 13 08:08:44 2019 -0700
+
+    update readme message
+
+[33mcommit c27de5e9a6b0b44f27ea76e3ca570d5ebb5da94e[m
+Author: Aki <akmalist@gmail.com>
+Date:   Sun Oct 13 08:06:48 2019 -0700
+
+    update readme message
+
+[33mcommit 50fff0321150b78b9105777277a25d4ffeb54a23[m
+Author: Aki <akmalist@gmail.com>
+Date:   Sun Oct 13 07:50:56 2019 -0700
+
+    update footer message
+
+[33mcommit 2138283439c12aee977032dc01b6abc5dbd2a52e[m
+Merge: 01b5d36 c2c49f3
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 12 13:18:26 2019 -0700
+
+    Merge pull request #3 from akmalist/features/aki
+    
+    add skeleton to html file
+
+[33mcommit c2c49f3eb499241c80800eeefc2f482b0622c93f[m
+Author: Aki <akmalqa101@gmail.com>
+Date:   Sat Oct 12 13:14:39 2019 -0700
+
+    add skeleton to html file
+
+[33mcommit 01b5d36e2e293f4d2385f3af3913ef6dfaa8007e[m
+Author: Donovan Gomez <donovanthedev@gmail.com>
+Date:   Wed Oct 9 23:58:03 2019 -0700
+
+    add images and style guide for colors
+
+[33mcommit 5bccdf835b57568691d5a140a352c61b9ed89fcc[m
+Author: Chance <tropicalchancer@users.noreply.github.com>
+Date:   Mon Sep 30 17:14:30 2019 +0400
+
+    Initial commit
