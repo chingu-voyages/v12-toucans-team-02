@@ -100,27 +100,7 @@ body {
     }
 
 
-    /******* TOP Container media*********/
-    .second-part {
-        margin: 2rem;
-        display: flex;
-        flex-direction: row !important;
-        justify-content: center;
-    }
 
-    .head-text-info {
-        text-align: left;
-        width: 650px;
-    }
-
-    .top-container-text {
-        margin-lefT: 1.8rem;
-    }
-
-    .second-part .second-part-img-container img {
-        width: 55em;
-        height: auto;
-    }
 
 
     /********Bottom container media*******/
@@ -177,6 +157,29 @@ body {
 
 @media screen and (min-width: 1270px) {
 
+        /******* TOP Container media*********/
+        .second-part {
+            margin: 2rem;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: center;
+        }
+    
+        .head-text-info {
+            text-align: left;
+            width: 650px;
+        }
+    
+        .top-container-text {
+            margin-lefT: 1.8rem;
+        }
+    
+        .second-part .second-part-img-container img {
+            width: 55em;
+            height: auto;
+        }
+
+    /* USE CASE MEDIA QUERY */
     .middle-container {
         display: flex;
         flex-direction: row !important;
