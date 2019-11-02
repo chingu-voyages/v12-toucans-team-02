@@ -27,7 +27,7 @@ const background  = document.querySelector('.dropdownBackground');
 
 function handleEnter() {
   this.classList.add('trigger-enter');
-  setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active'), 150);
+  setTimeout(() => this.classList.add('trigger-enter-active'), 150);
 }
 
 function handleLeave() {
