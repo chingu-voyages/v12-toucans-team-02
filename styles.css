@@ -70,136 +70,6 @@ body {
 
 /*****************MEDIA***************/
 
-@media screen and (min-width: 968px) {
-    .navs {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 80px;
-        align-items: center;
-    }
-
-    .nav-list {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .nav-list li {
-        margin: 0;
-    }
-
-    .nav-container a {
-        padding: 0.9rem 1.2rem;
-        font-size: 1.2rem;
-    }
-
-    .navbar-toggle {
-        display: none;
-    }
-
-
-
-
-
-    /********Bottom container media*******/
-
-    .platform-info {
-        flex-direction: column;
-    }
-
-    .platform-text {
-        margin: 2rem 0 0;
-
-    }
-
-
-    /*********Report Section media*****/
-
-    .report-section {
-        flex-wrap: nowrap !important;
-        justify-content: center;
-    }
-
-    .report-description {
-        width: 550px;
-    }
-
-
-    /********Cloud section media*******/
-
-    .cloud-info {
-        flex-wrap: nowrap !important;
-        justify-content: center;
-        margin: 3rem;
-
-    }
-
-    .cloud-text {
-        width: 550px;
-    }
-
-    .cloud-image img {
-        padding: 2rem;
-    }
-
-
-    /*************Footer Media*************/
-
-    footer#footer h2 {
-        margin: 2rem;
-    }
-
-
-
-}
-
-@media screen and (min-width: 1270px) {
-
-        /******* TOP Container media*********/
-        .second-part {
-            margin: 2rem;
-            display: flex;
-            flex-direction: row !important;
-            justify-content: center;
-        }
-    
-        .head-text-info {
-            text-align: left;
-            width: 650px;
-        }
-    
-        .top-container-text {
-            margin-lefT: 1.8rem;
-        }
-    
-        .second-part .second-part-img-container img {
-            width: 55em;
-            height: auto;
-        }
-
-    /* USE CASE MEDIA QUERY */
-    .middle-container {
-        display: flex;
-        flex-direction: row !important;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .middle-left-elements {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .middle-right-elements {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-}
 
 
 
@@ -694,4 +564,136 @@ footer#footer .footer-nav a {
 #myBtn:hover {
     transform: scale(1.1);
 
+}
+
+
+@media screen and (min-width: 968px) {
+    .navs {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 80px;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-list li {
+        margin: 0;
+    }
+
+    .nav-container a {
+        padding: 0.9rem 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+
+
+
+
+    /********Bottom container media*******/
+
+    .platform-info {
+        flex-direction: column;
+    }
+
+    .platform-text {
+        margin: 2rem 0 0;
+
+    }
+
+
+    /*********Report Section media*****/
+
+    .report-section {
+        flex-wrap: nowrap !important;
+        justify-content: center;
+    }
+
+    .report-description {
+        width: 550px;
+    }
+
+
+    /********Cloud section media*******/
+
+    .cloud-info {
+        flex-wrap: nowrap !important;
+        justify-content: center;
+        margin: 3rem;
+
+    }
+
+    .cloud-text {
+        width: 550px;
+    }
+
+    .cloud-image img {
+        padding: 2rem;
+    }
+
+
+    /*************Footer Media*************/
+
+    footer#footer h2 {
+        margin: 2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1270px) {
+
+        /******* TOP Container media*********/
+        .second-part {
+            margin: 2rem;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: center;
+        }
+    
+        .head-text-info {
+            text-align: left;
+            width: 650px;
+        }
+    
+        .top-container-text {
+            margin-lefT: 1.8rem;
+        }
+    
+        .second-part .second-part-img-container img {
+            width: 55em;
+            height: auto;
+        }
+
+    /* USE CASE MEDIA QUERY */
+    .middle-container {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-left-elements {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .middle-right-elements {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
 }
