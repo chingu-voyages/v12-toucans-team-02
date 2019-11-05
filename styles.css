@@ -136,22 +136,17 @@ body {
     .cloud-info {
         flex-wrap: nowrap !important;
         justify-content: center;
-        margin: 3rem;
+        margin: 2rem 0;
+		padding-left:5rem;
 
     }
 
     .cloud-text {
-        width: 550px;
-		 
-    margin: 7rem 0;
+        width: 450px;
+	    padding-top: 6rem;
+     }
+
  
-  
-    }
-
-    .cloud-image img {
-        padding: 2rem;
-    }
-
 
     /*************Footer Media*************/
 
@@ -587,13 +582,10 @@ p {
 }
 
 .cloud-text {
-    padding: 2rem 0;
-	
+    margin: 2rem;	
  }
 
-.cloud-text h2{
-	padding: 1rem;
-}
+
 .cloud-text p {
 	padding: 1rem;
 	text-align: left;
@@ -602,7 +594,8 @@ p {
 .cloud-image img {
     width: 100%;
     margin-bottom: 5rem;
-}
+	
+ }
 
 
 /************** FOOTER SECTION***************/
