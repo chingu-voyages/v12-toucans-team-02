@@ -45,6 +45,10 @@ body {
 .nav-list {
     list-style-type: none;
     display: none;
+	
+}
+.nav-list li{
+	padding:1rem;
 }
 
 .active {
@@ -70,6 +74,135 @@ body {
 
 /*****************MEDIA***************/
 
+@media screen and (min-width: 968px) {
+    .navs {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 80px;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-list li {
+        margin: 0;
+    }
+
+    .nav-container a {
+        padding: 0.9rem 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+
+
+
+
+    /********Bottom container media*******/
+
+    .platform-info {
+        flex-direction: column;
+    }
+
+    .platform-text {
+        margin: 2rem 0 0;
+
+    }
+
+
+    /*********Report Section media*****/
+
+    .report-section {
+        flex-wrap: nowrap !important;
+        justify-content: center;
+    }
+
+    .report-description {
+        width: 550px;
+    }
+
+
+    /********Cloud section media*******/
+
+    .cloud-info {
+        flex-wrap: nowrap !important;
+        justify-content: center;
+        margin: 2rem 0;
+		padding-left:5rem;
+
+    }
+
+    .cloud-text {
+        width: 450px;
+	    padding-top: 6rem;
+     }
+
+ 
+
+    /*************Footer Media*************/
+
+    footer#footer h2 {
+        margin: 2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1270px) {
+
+        /******* TOP Container media*********/
+        .second-part {
+            margin: 2rem;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: center;
+        }
+    
+        .head-text-info {
+            text-align: left;
+            width: 650px;
+        }
+    
+        .top-container-text {
+            margin-lefT: 1.8rem;
+        }
+    
+        .second-part .second-part-img-container img {
+            width: 55em;
+            height: auto;
+        }
+
+    /* USE CASE MEDIA QUERY */
+    .middle-container {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle-left-elements {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .middle-right-elements {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
 
 
 
@@ -84,7 +217,8 @@ h2,
 h3 {
     color: rgba(0, 0, 0, 0.75);
     letter-spacing: -0.095rem;
-
+	line-height: 2.375rem;
+	font-weight: 500;
 }
 
 p {
@@ -120,9 +254,11 @@ p {
 
 /* border: 1px solid red; */
 .top-container {
+	background: #f7f7f7;
     margin: 0 auto;
     padding-top: 5rem;
     text-align: center;
+	
 }
 
  .first-head a {
@@ -140,6 +276,7 @@ p {
 
 .top-container .top-container-img img {
     width: 100%;
+	
 }
 
 .top-container-text {
@@ -223,6 +360,8 @@ p {
 .second-part h2 {
     text-align: center;
     margin: 1.5rem;
+	font-size: 1.75rem;
+	
 }
 
 .second-part p {
@@ -230,8 +369,7 @@ p {
 }
 
 .second-part img {
-    width: 100%;
-    
+	width: 100%;  
 }
 
 /****************** USE CASES *****************/
@@ -358,7 +496,11 @@ p {
 
 .platform-item h5 {
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 4rem 1rem 0;
+ 
+}
+.platform-item h5 i{
+	margin: 0 0.5rem;
 }
 
 .platform-text p {
@@ -435,26 +577,25 @@ p {
 
 .cloud-info {
     display: flex;
-    padding: 0 3rem;
     flex-wrap: wrap;
     text-align: center;
 }
 
 .cloud-text {
-    padding: 2rem;
-    margin: 2rem;
-}
+    margin: 2rem;	
+ }
+
 
 .cloud-text p {
-    padding: 1rem;
-    text-align: left;
-
+	padding: 1rem;
+	text-align: left;
 }
 
 .cloud-image img {
     width: 100%;
     margin-bottom: 5rem;
-}
+	
+ }
 
 
 /************** FOOTER SECTION***************/
